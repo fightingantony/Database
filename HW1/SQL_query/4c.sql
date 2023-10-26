@@ -7,6 +7,6 @@ having count(sets.name) = (
     from (select count(sets.name) num_of_set
           from themes, sets
           where themes.id = sets.theme_id
-          group by themes.name
+          group by themes.id
     ) 
 )
