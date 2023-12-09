@@ -1,4 +1,4 @@
-/*copy original data*/
+/*copy original data(psql)*/
 \copy country_and_continent_codes_list from 'D:\PostgreSQL\bin\country-and-continent-codes-list-csv.csv' DELIMITER  ','  CSV HEADER;
 \copy oxcgrt_nat_latest from 'D:\PostgreSQL\bin\OxCGRT_nat_latest.csv' DELIMITER ',' CSV HEADER;
 
